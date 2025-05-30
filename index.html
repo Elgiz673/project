@@ -8,6 +8,14 @@
 </head>
 
 <body>
+  <header>
+    <nav>
+      <a href="#home">Главная</a>
+      <a href="#programm">Программа</a>
+    </nav>
+  </header>
+
+  <header id="home">
   <h1 align="center">Авторская экскурсия по Санкт-Петербургу</h1>
   <img src="/images/1.png" alt="View Of Saint Petersburg" 
   width="895" 
@@ -16,6 +24,9 @@
     культуру и архитектуру, посетите известные достопримечательности. Наши экскурсии созданы, чтобы показать вам самое
     лучшее, что Санкт-Петербург готов предложить.
   </p>
+ </header>
+ <main>
+  <section id="programm">
   <h2>Что мы предлагаем?</h2>
   <img src="/images/10.png" alt="Group of people in Saint Petersburg" 
   width="895" 
@@ -31,6 +42,9 @@
     <li>Лучшие фотолокации.</li>
     <li>Прогулки по крышам.</li>
   </ol>
+</section>
+
+<section>
   <h2>Кому подойдет экскурсия?</h2>
   <img src="/images/18.png" alt="Girl in Saint Petersburg" 
   width="895" 
@@ -41,8 +55,9 @@
     <ul>Компаниям друзей.</ul>
     <ul> Семьям с детьми старше 12 лет.</ul>
   </ol>
+</section>
 
-  <div class="container-tarif" id="prices">
+  <section class="container-tarif" id="prices">
   <h2>Какие есть тарифы?</h2>
   <p>Мы знаем, что каждое путешествие уникально. Поэтому разработали несколько тарифов, чтобы вы могли выбрать самый
     комфортный для себя. Независимо от выбранного тарифа, вас ждет незабываемое путешествие.</p>
@@ -80,9 +95,9 @@
     </tr>
   </table>
   <p>Мы предлагаем различные варианты оплаты. Менеджер поможет подобрать оптимальный вариант.</p>
-</div>
+  </section>
 
-<div class="dop">
+<section class="dop">
   <h2>Дополнительные услуги</h2>
   <form class="dop-form">
     <ul>
@@ -138,7 +153,7 @@
           });
         });
       </script>
-</div>
+</section>
  
 <h2>Отзывы участников</h2>
   <figure>
@@ -175,7 +190,7 @@
       Класс!
     </blockquote>
 
-    <div class="column">
+    <section class="column">
     <h5>Как записаться на экскурсию</h5>
     <p>Для подробной информации заполните форму.<br>Наши менеджеры с вами свяжутся.</p>
     <form>
@@ -185,7 +200,7 @@
       <input type="text" placeholder="Номер телефона"><br>
       <button type="submit">Отправить</button>
     </form>
-  </div>
+  </section>
 
 
   <select name="tariff" id="tariff">
@@ -195,6 +210,14 @@
       <option value="premium">Премиум</option>
       <option value="Luxury">Люкс</option>
   </select>
+  <aside>
+    <h2>Другие экскурсии</h2>
+    <img src="/images/2.png" alt="Rivers and channels of Saint Petersburg">
+    <p>Экскурсия по рекам и каналам</p>
+    <img src="/images/3.png" alt="Mistical Saint Petersburg">
+    <p>Мистический Петербург</p>
+  </aside>
+</main>
   
   <a href="https://t.me/elgiz1991">Свяжитесь с автором экскурсии</a>
 </body>
